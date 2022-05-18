@@ -73,6 +73,16 @@ body {
 /*Mapa*/
 .ubicacion {
     height: 200px;
+
+    animation-name: animacion;
+
+    animation-iteration-count: infinite;
+
+    animation-timing-function: ease-in;
+
+    animation-duration: 3s;
+
+    animation-delay: 2s;
 }
 
 .Mapa {
