@@ -73,16 +73,6 @@ body {
 /*Mapa*/
 .ubicacion {
     height: 200px;
-
-    animation-name: animacion;
-
-    animation-iteration-count: infinite;
-
-    animation-timing-function: ease-in;
-
-    animation-duration: 3s;
-
-    animation-delay: 2s;
 }
 
 .Mapa {
@@ -123,6 +113,30 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.nav_ul-Grid {
+
+    animation-name: animacion;
+
+    animation-iteration-count: infinite;
+
+    animation-timing-function: ease-in;
+
+    animation-duration: 3s;
+
+    animation-delay: 1s;
+
+}
+
+@keyframes texto {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
+    }
+    
 }
 
 h1 {
