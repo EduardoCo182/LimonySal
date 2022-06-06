@@ -9,8 +9,6 @@
 body {
   background-color: #204446;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80' width='80' height='80'%3E%3Cpath fill='%23000000' fill-opacity='0.4' d='M14 16H9v-2h5V9.87a4 4 0 1 1 2 0V14h5v2h-5v15.95A10 10 0 0 0 23.66 27l-3.46-2 8.2-2.2-2.9 5a12 12 0 0 1-21 0l-2.89-5 8.2 2.2-3.47 2A10 10 0 0 0 14 31.95V16zm40 40h-5v-2h5v-4.13a4 4 0 1 1 2 0V54h5v2h-5v15.95A10 10 0 0 0 63.66 67l-3.47-2 8.2-2.2-2.88 5a12 12 0 0 1-21.02 0l-2.88-5 8.2 2.2-3.47 2A10 10 0 0 0 54 71.95V56zm-39 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm40-40a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM15 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm40 40a2 2 0 1 0 0-4 2 2 0 0 0 0 4z'%3E%3C/path%3E%3C/svg%3E");
-  /*Mapa*/
-  /*SECCION GALERIA */
 }
 
 body header {
@@ -22,8 +20,8 @@ body header {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 body .encabezado {
@@ -33,10 +31,10 @@ body .encabezado {
   font-family: 'Marck Script', cursive;
   font-size: 500%;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   height: 100px;
 }
 
@@ -90,13 +88,13 @@ body .Mapa {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 body .imagenGaleria {
@@ -105,87 +103,31 @@ body .imagenGaleria {
 
 body .imagenGaleria:hover {
   -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 body .imagenGaleria2:hover {
   -webkit-filter: blur(100%);
-          filter: blur(100%);
+  filter: blur(100%);
 }
 
 body .imagenGaleria3:hover {
   -webkit-filter: drop-shadow(100%);
-          filter: drop-shadow(100%);
+  filter: drop-shadow(100%);
 }
 
-body .imagenContenedor {
+body .imagenContenedor, body .imagenContenedor2, body .imagenContenedor3, body .Imagen1, body .TeEsperamos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-body .imagenContenedor2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-body .imagenContenedor3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-body .Imagen1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-body .TeEsperamos {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 body h1 {
@@ -193,7 +135,7 @@ body h1 {
   font-family: 'Marck Script', cursive;
   font-size: 500%;
   -webkit-text-decoration-color: whitesmoke;
-          text-decoration-color: whitesmoke;
+  text-decoration-color: whitesmoke;
 }
 
 body h2 {
@@ -201,25 +143,11 @@ body h2 {
   font-family: 'Marck Script', cursive;
   font-size: 240%;
   -webkit-text-decoration-color: whitesmoke;
-          text-decoration-color: whitesmoke;
+  text-decoration-color: whitesmoke;
   color: #ee7818;
 }
 
-body h3 {
-  text-align: center;
-  font-family: 'Marck Script', cursive;
-  font-size: 235%;
-  color: #ee7818;
-}
-
-body h4 {
-  text-align: center;
-  font-family: 'Marck Script', cursive;
-  font-size: 235%;
-  color: #ee7818;
-}
-
-body h5 {
+body h3, body h4, body h5 {
   text-align: center;
   font-family: 'Marck Script', cursive;
   font-size: 235%;
@@ -240,11 +168,11 @@ body frame {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
   color: whitesmoke;
 }
@@ -282,11 +210,11 @@ body p {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   -ms-grid-rows: 1fr;
-      grid-template-rows: 1fr;
+  grid-template-rows: 1fr;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   text-decoration: none;
 }
 
@@ -299,22 +227,22 @@ body p {
   margin: 1rem;
   text-align: center;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 form {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
+  grid-template-columns: 1fr;
   -ms-grid-row: 1;
   grid-row: 1fr;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
   color: whitesmoke;
   font-family: 'Marck Script', cursive;
@@ -326,32 +254,18 @@ i {
   font-size: 180%;
 }
 
-.carrusel-iner form {
+.carrusel-iner form, .carousel-item form, .carouselExampleCaptions form {
   text-align: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.carousel-item form {
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.carouselExampleCaptions form {
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .Tamañocarrusel form {
   text-align: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 50%;
   padding: 10px;
 }
@@ -360,21 +274,21 @@ i {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   -ms-grid-rows: 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   text-align: center;
   width: 50vw;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .formulario {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
+  grid-template-columns: 1fr;
   -ms-grid-row: 1;
   grid-row: 1fr;
 }
@@ -383,7 +297,7 @@ i {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
+  grid-template-columns: 1fr;
   -ms-grid-row: 1;
   grid-row: 1fr;
   width: 50%;
@@ -420,13 +334,13 @@ footer {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
 }
 
 footer ul li {
@@ -451,10 +365,10 @@ footer ul li a {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
     -ms-grid-rows: 1fr;
-        grid-template-rows: 1fr;
-        grid-template-areas: "header header header header" "nav nav nav nav nav nav nav nav nav" "main main " "footer footer footer footer";
+    grid-template-rows: 1fr;
+        grid-template-areas: "header header header header" "nav nav nav nav nav nav nav nav nav" "main main " "footer footer footer footer";
     gap: 20px;
   }
 }
@@ -464,10 +378,10 @@ footer ul li a {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
     -ms-grid-rows: 1fr;
-        grid-template-rows: 1fr;
-        grid-template-areas: "header header" "nav nav nav nav nav" "main main" "footer footer footer";
+    grid-template-rows: 1fr;
+        grid-template-areas: "header header" "nav nav nav nav nav" "main main" "footer footer footer";
   }
 }
 
@@ -476,31 +390,31 @@ footer ul li a {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
     -ms-grid-rows: 1fr;
-        grid-template-rows: 1fr;
-        grid-template-areas: "header header header header" "nav nav nav nav nav nav nav nav nav" "main main " "footer footer footer footer";
+    grid-template-rows: 1fr;
+        grid-template-areas: "header header header header" "nav nav nav nav nav nav nav nav nav" "main main " "footer footer footer footer";
     gap: 20px;
   }
   .servicios {
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .contacto {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     border: none;
   }
   .TeEsperamos {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
     -ms-grid-rows: 1fr;
-        grid-template-rows: 1fr;
-        grid-template-areas: "header header header header" "nav nav nav nav nav nav nav nav nav" "main main " "footer footer footer footer";
+    grid-template-rows: 1fr;
+        grid-template-areas: "header header header header" "nav nav nav nav nav nav nav nav nav" "main main " "footer footer footer footer";
     gap: 20px;
   }
   .campo {
