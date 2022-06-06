@@ -175,6 +175,22 @@ frame {
 }
 
 
+.tamLogo {
+    width: 40px;
+
+}
+
+.colorNavbar {
+    background-color: #444444;
+}
+
+.fuentes {
+    font-family:'Marck Script', cursive;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
 .navGrid {
     display: grid;
     background-color: black(--principal);
@@ -237,8 +253,6 @@ i {
     justify-content: center;
     width: 50%;
     padding: 10px;
-
-
 }
 
 .contacto form {
@@ -361,7 +375,7 @@ footer ul li a {
         flex-wrap: wrap;
     }
 
-    #contacto {
+    .contacto {
         flex-direction: column;
         border: none;
     }
