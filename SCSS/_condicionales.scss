@@ -1,0 +1,11 @@
+/* CONDICIONALES */
+
+/* $vista: escritorio;
+@if ($vista == escritorio) {
+    body {
+        backgroud-color:pink;}
+@else {
+    body { 
+        background-color:aqua;
+    }
+}

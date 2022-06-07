@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
-//fuentes
+//Importaciones
+
+@import "condicionales";
+@import "maps";
 
 @import url("https://fonts.googleapis.com/css2?family=Marck+Script&display=swap");
 
@@ -25,7 +28,7 @@ body {
   background-color: #000000;
   background-image: url(../img/colorful-stingrays.png);
   background-attachment: fixed;
-  background-size: cover;
+  background-size: auto;
     border-radius: 4px;
     display: -webkit-box;
     display: -ms-flexbox;
