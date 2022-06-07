@@ -182,7 +182,7 @@ body p {
 }
 
 .tamLogo {
-  width: 40px;
+  width: 45px;
 }
 
 .colorNavbar {
@@ -192,9 +192,9 @@ body p {
 
 .fuentes {
   font-family: 'Marck Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
-  text-align: center;
+  text-align: right;
 }
 
 .navGrid {
@@ -218,7 +218,7 @@ body p {
   text-decoration: none;
 }
 
-.nav_li {
+.nav-item {
   display: -ms-grid;
   display: grid;
   font-family: 'Marck Script', cursive;
@@ -268,6 +268,23 @@ i {
   justify-content: center;
   width: 50%;
   padding: 10px;
+}
+
+.CarruselTam form {
+  width: 10%;
+  text-align: center;
+  justify-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.imagenGaleria form {
+  text-align: center;
+  justify-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .contacto form {
