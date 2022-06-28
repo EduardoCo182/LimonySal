@@ -1,14 +1,16 @@
 @charset "UTF-8";
-/* CONDICIONALES */
+/*Fuentes*/
 @import url("https://fonts.googleapis.com/css2?family=Marck+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+/*Margenes*/
 * {
   margin: 0;
   padding: 0; }
-
+/*Inicia Body*/
 body {
   background-color: #204446;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80' width='80' height='80'%3E%3Cpath fill='%23000000' fill-opacity='0.4' d='M14 16H9v-2h5V9.87a4 4 0 1 1 2 0V14h5v2h-5v15.95A10 10 0 0 0 23.66 27l-3.46-2 8.2-2.2-2.9 5a12 12 0 0 1-21 0l-2.89-5 8.2 2.2-3.47 2A10 10 0 0 0 14 31.95V16zm40 40h-5v-2h5v-4.13a4 4 0 1 1 2 0V54h5v2h-5v15.95A10 10 0 0 0 63.66 67l-3.47-2 8.2-2.2-2.88 5a12 12 0 0 1-21.02 0l-2.88-5 8.2 2.2-3.47 2A10 10 0 0 0 54 71.95V56zm-39 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm40-40a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM15 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm40 40a2 2 0 1 0 0-4 2 2 0 0 0 0 4z'%3E%3C/path%3E%3C/svg%3E"); }
+/*Imagen Body*/
   body header {
     background-image: url(../img/colorful-stingrays.png);
     background-attachment: fixed;
@@ -21,6 +23,7 @@ body {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column; }
+  /*Encabezado*/
   body .encabezado {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -33,37 +36,36 @@ body {
     -ms-flex-pack: distribute;
     justify-content: space-around;
     height: 100px; }
+  /*Titulo*/
   body .tituloPrincipal {
     color: #ff9913;
     text-decoration: none;
     font-size: 2.5rem; }
-  body .botonTelefono img {
-    width: 50px;
-    position: fixed;
-    bottom: 100px;
-    right: 10px; }
+ /*Botones Redes Sociales*/ 
   body .botonCorreo img {
     width: 50px;
     position: fixed;
-    bottom: 200px;
+    bottom: 20px;
     right: 10px; }
   body .botonWhatsApp img {
     width: 50px;
-    position: fixed;
-    bottom: 300px;
+    position:fixed;
+    bottom: 100px;
     right: 10px; }
   body .botonFacebook img {
     width: 50px;
     position: fixed;
-    bottom: 400px;
+    bottom: 200px;
     right: 10px; }
   body .botonInstagram img {
     width: 50px;
     position: fixed;
-    bottom: 500px;
+    bottom: 300px;
     right: 10px; }
+/*Ubicacion*/
   body .ubicacion {
     height: 200px; }
+  /*Mapa*/
   body .Mapa {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -80,10 +82,13 @@ body {
     height: 200px; }
     body .imagenGaleria:hover {
       -webkit-filter: grayscale(100%);
-      filter: grayscale(100%); }
+      filter: grayscale(100%);
+      transform: scale(1.2); 
+    }
   body .imagenGaleria2:hover {
-    -webkit-filter: blur(100%);
-    filter: blur(100%); }
+    transform: scale(1.5);
+  }
+
   body .imagenGaleria3:hover {
     -webkit-filter: drop-shadow(100%);
     filter: drop-shadow(100%); }
@@ -99,19 +104,29 @@ body {
     align-items: center;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
+    
+  /*Subtitulos*/
   body h1 {
     text-align: center;
     font-family: 'Marck Script', cursive;
     font-size: 500%;
     -webkit-text-decoration-color: whitesmoke;
-    text-decoration-color: whitesmoke; }
+    text-decoration-color: whitesmoke; 
+
+  }
+    
   body h2 {
     text-align: center;
     font-family: 'Marck Script', cursive;
     font-size: 240%;
     -webkit-text-decoration-color: whitesmoke;
     text-decoration-color: whitesmoke;
-    color: #ee7818; }
+    color: #ee7818; 
+    animation-name: mover;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+  }
   body h3, body h4, body h5 {
     text-align: center;
     font-family: 'Marck Script', cursive;
@@ -182,6 +197,7 @@ body {
   -ms-flex-pack: distribute;
   justify-content: space-around; }
 
+/*Formulario*/
 form {
   display: -ms-grid;
   display: grid;
@@ -283,6 +299,7 @@ i {
   background-size: 120% auto;
   background-image: linear-gradient(315deg, #833ab4 0%, #fd1d1d 50%, #fcb045); }
 
+/*Footer*/
 footer {
   height: 160px;
   width: 100%;
@@ -313,6 +330,19 @@ footer {
 
 .footer {
   grid-area: footer; }
+
+
+@keyframes mover{
+
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(10%);
+  }
+}
+
+/*Medias Querry*/
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .bodygrid {

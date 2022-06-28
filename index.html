@@ -7,50 +7,53 @@
     <meta name="description" content="Este es el sitio web de mi Restaurante, en el que encontrarás toda la información de el para conocernos, ver nuestro menú,ubicación, horarios y fechas, promociones,reservar una mesa y mucho más.  ¡Ven a Conocernos!">
     <meta name ="keywords" content="Mariscos,Restaurante,CDMX,Cuauhtemoc,Cocina,Platillos,Limon,Sal">
     <meta name="google-site-verification" content="PYvr8I0ZZ4kZHuyN7vZ4BM6VYLBnkJeroBCxdvw3SuY" />
+    <!--Titulo-->
     <title>Marisquería Limón y Sal</title>
+    <!--Favicom-->
     <link rel="shortcut icon" href="./img/lobster-icon-12.png" type="image/x-icon">
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <!--CSS-->
     <link rel="stylesheet" href="./css/estilo.css">
 
 </head>
+<!--Inicia Body-->
 <body class="bodygrid">
+  <!--header-->
     <header class=".encabezado">
         <h1 class=".tituloPrincipal">Marisquería Limón y SaL</h1>
    <!--Navbar-->
-        <nav class="navbar navbar-expand-lg navbar-light colorNavbar">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
           <div class="container-fluid">
-            <a class="navbar-brand col-lg-1" href="./index.html"><img class="tamLogo rounded-circle" src="./img/lobster-icon-12.png" alt="Logo"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <!--Icono-->
+            <a class="navbar-brand" href="./index.html"><img class="tamLogo rounded-circle" src="./img/lobster-icon-12.png" alt="Logo"></a>
+<!--Boton del Menu-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="hamburgesa" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-center mx-auto mb-auto mb-auto mb-lg-0">
-  
+<!--Elememtos del menu colapsable-->
+            <div class="collapse navbar-collapse" id="hamburgesa">
+              <ul class="navbar-nav me-auto">
+
                 <li class="nav-item">
-                <a class= "nav-link fuentes" href="./pages/menu.html">Menú</a>
+                  <a class= "nav-link activate" aria- current ="page" href="./pages/menu.html">Menú</a>
                 </li>
-                <li class="nav-item col-lg-3">
-                  <a class="nav-link fuentes" href="./pages/nosotros.html">Sobre Nosotros</a>
+                <li class="nav-item">
+                  <a class="nav-link activate" href="./pages/nosotros.html">Sobre Nosotros</a>
                 </li>
               </li>
               <li class="nav-item">
-                <a class="nav-link fuentes" href="./pages/promociones.html">Promociones</a>
+                <a class="nav-link activate" href="./pages/promociones.html">Promociones</a>
               </li>
             </li>
             <li class="nav-item">
-              <a class="nav-link fuentes" href="./pages/reservaciones.html">Reservaciones</a>
+              <a class="nav-link activate" href="./pages/reservaciones.html">Reservaciones</a>
             </li>
           <li class="nav-item">
-            <a class="nav-link fuentes" href="./pages/contacto.html">Contactanos</a>
+            <a class="nav-link activate" href="./pages/contacto.html">Contactanos</a>
           </li>
-          </ul>
-        <form class=" d-flex ms-auto" role="search">
-                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Busqueda</button>
-              </form>
-            </div>
+            </ul>
           </div>
         </nav>
     </header>
@@ -58,6 +61,7 @@
       <section class="container-fluid">
         <div class="row">
           <div class="col-lg-12 col-md-6 col-sm-12 mt-2 p-2">
+            
             <h2>Conocenos</h2>
 
             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat soluta, atque praesentium laborum hic facere reprehenderit reiciendis voluptatum porro ea similique asperiores sed unde aspernatur culpa natus eius modi ducimus, officia voluptatibus illum aut delectus. Molestiae facere ducimus vel officiis possimus suscipit quidem, tempore omnis minima iste a qui praesentium nobis dolore reprehenderit vitae culpa illum excepturi nisi inventore? Nemo perspiciatis eveniet ea iusto deleniti modi, praesentium itaque quas, porro quisquam sint mollitia cum eaque architecto! Reprehenderit libero est ex saepe, vitae perferendis modi error, nisi exercitationem voluptas non voluptatum molestiae commodi. Rerum nisi cumque veritatis, nihil at atque voluptatum corrupti expedita praesentium, voluptas ab voluptatem officia? Et, esse nesciunt laboriosam similique eligendi assumenda ut nisi odit asperiores explicabo expedita, dignissimos hic temporibus natus culpa adipisci aspernatur, facere aut totam laudantium impedit ex dolorem doloribus iure. Magnam expedita atque at iusto, harum ut laborum vitae iure quisquam rem debitis corrupti impedit amet, sint, omnis ipsam illo. Ullam eaque assumenda quaerat enim aliquid nulla hic temporibus magnam natus accusantium quo blanditiis cumque unde saepe a, itaque pariatur aut impedit recusandae tempora earum, corporis ut officiis. Ut non voluptates porro blanditiis expedita quas officia vel, molestias similique asperiores, minus aliquid, corrupti suscipit?</p>
@@ -112,12 +116,8 @@
          </form>
         <br>
         <h2>¡Te Esperamos!</h2>
-        <!-- <br>
-        <div class="TeEsperamos">    
-         <img class="Te Esperamos" src="img/contacto.jpg" alt="">
-        </div>
-        <br><br> -->
-    <div id="carouselExampleCaptions" class="carousel slide col-lg-12 col-md-6 col-sm-12 mt-2 p-2 CarruselTam" data-bs-ride="carousel">
+<!--CARRUSEL-->
+    <!-- <div id="carouselExampleCaptions" class="carousel slide col-lg-12 col-md-6 col-sm-12 mt-2 p-2 CarruselTam" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -188,15 +188,10 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-
-
         </section>
-    </main>
+    </main> -->
 
-    <div class="botonTelefono">
-        <img  src="img/phone number_512.png" alt="Icono Telefono">
-    </div>
-
+  <!--Botones-->
     <div class="botonCorreo">
         <img src="img/email_512.png" alt="Icono Correo">
     </div>
@@ -212,7 +207,7 @@
     <div class="botonInstagram">
         <a href="https://www.instagram.com/limonysalmarisqueria/" target="_blank"><img  src="img/camera_instagram_instagram logo_icon_512.png" alt="Instagram"></a>
     </div>
-
+<!--Footer-->
         <footer id="footer">
             <nav>
                 <ul>
