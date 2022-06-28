@@ -42,6 +42,7 @@ body {
     color: #ff9913;
     text-decoration: none;
     font-size: 2.5rem; }
+
  /*Botones Redes Sociales*/ 
   body .botonCorreo img {
     width: 50px;
@@ -126,6 +127,7 @@ body {
     animation-iteration-count: 2;
     animation-direction: alternate;
   }
+  /*Subtitulos*/
   body h3, body h4, body h5 {
     text-align: center;
     font-family: 'Marck Script', cursive;
@@ -152,7 +154,6 @@ body {
     color: whitesmoke; }
   body p {
     color: whitesmoke; }
-
 /*Textos*/
 p{
   text-align: center;
@@ -310,12 +311,8 @@ i {
 }
 /*Carrusel 3*/
 .slide3{
- height:min-content;
- margin-top: 1px;
- margin-left: 60px;
- width: min-content;
+  height: min-content;
 }
-
 /*Footer*/
   .footer {
     font-size: 14px;
@@ -454,3 +451,4 @@ i {
     width: 100%;
     padding-left: 0;
     padding-right: 0; } }
+/*Fin CSS*/
