@@ -57,69 +57,28 @@
           </div>
         </nav>
     </header>
-
-  <!-- slider cambiado -->
-  <!-- <div class="w3-container">
+<!--CARRUSEL-->
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/intento2.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/campom.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/fish.png" class="d-block w-100" alt="...">
+    </div>
   </div>
-
-<div class="w3-content w3-display-container">
-
-<div class="w3-display-container mySlides">
-<img src="img/Portada.jpg" alt="producto" style="width:20%">
-<div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">            
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
-</div>
-
-<div class="w3-display-container mySlides">
-<img src="img/Foto1 (4).jpg" alt="comida" style="width:20%">
-<div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">           
-</div>
-</div>
-
-<div class="w3-display-container mySlides">
-<img src="img/Foto1 (5).jpg" alt="propina" style="width:20%">
-<div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">           
-</div>
-</div>
-
-<div class="w3-display-container mySlides">
-<img src="img/Foto1 (6).jpg" alt="comida" style="width:20%">
-<div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">            
-</div>
-</div>
-
-<div class="w3-display-container mySlides">
-<img src="img/Foto1 (7).jpg" alt="comida" style="width:20%">
-<div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">          
-</div>
-</div>
-
-<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
-<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
-
-</div> 
-
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-var i;
-var x = document.getElementsByClassName("mySlides");
-if (n > x.length) {slideIndex = 1}
-if (n < 1) {slideIndex = x.length}
-for (i = 0; i < x.length; i++) {
-x[i].style.display = "none";  
-}
-x[slideIndex-1].style.display = "block";  
-}
-</script> -->
-
-
 
       <!--Grilla Bootstrap-->
       <section class="container-fluid">
@@ -176,82 +135,9 @@ x[slideIndex-1].style.display = "block";
                     placeholder="Ingrese su mensaje"></textarea>
                 <input class="botonAsociar tamBotonForm" type="submit">
          </form>
-        <br>
-        <h2>¡Te Esperamos!</h2>
-<!--CARRUSEL-->
-    <!-- <div id="carouselExampleCaptions" class="carousel slide col-lg-12 col-md-6 col-sm-12 mt-2 p-2 CarruselTam" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
-      </div>
-      <div class="carousel-inner CarruselTam">
-        <div class="carousel-item active">
-          <img src="./img/Portadapeque.jpg" class="TamañoCarrusel" alt="Portada">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>foto</h5>
-            <p>logo</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="./img/contacto.jpg" class="d-block w-20" alt="...">
-          <div class="carousel-caption d-none d-md- 1 block">
-            <h5>foto2</h5>
-            <p>Contacto</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="./img/Foto1 (6).jpg" class="d-block w-20" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>foto3</h5>
-            <p>Contacto</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-            <img src="./img/Foto1 (7).jpg" class="d-block w-20" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>foto4</h5>
-          <p>Contacto</p>
-        </div>
-      </div>
-          <div class="carousel-item">
-            <img src="./img/Foto1 (5).jpg" class="d-block w-20" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-            <h5>Platillo</h5>
-            <p>Platillo</p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="./img/Foto1 (4).jpg" class="d-block w-20" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-        <h5>Platillo</h5>
-        <p>Platillo</p>
-      </div>
-    </div>
-  </div>
-  <div class="carousel-item">
-    <img src="./img/Foto1 (3).jpg" class="d-block w-20" alt="...">
-    <div class="carousel-caption d-none d-md-block">
-    <h5>Platillo</h5>
-    <p>Platillo</p>
-  </div>
-  </div>
-  </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
         </section>
-    </main> -->
+
+        <h2>¡Te Esperamos!</h2>
 
   <!--Botones-->
     <div class="botonCorreo">

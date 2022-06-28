@@ -88,7 +88,6 @@ body {
   body .imagenGaleria2:hover {
     transform: scale(1.5);
   }
-
   body .imagenGaleria3:hover {
     -webkit-filter: drop-shadow(100%);
     filter: drop-shadow(100%); }
@@ -112,9 +111,7 @@ body {
     font-size: 500%;
     -webkit-text-decoration-color: whitesmoke;
     text-decoration-color: whitesmoke; 
-
   }
-    
   body h2 {
     text-align: center;
     font-family: 'Marck Script', cursive;
@@ -220,28 +217,7 @@ i {
   text-align: center;
   font-size: 180%; }
 
-.carrusel-iner form, .carousel-item form, .carouselExampleCaptions form {
-  text-align: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center; }
-
-.Tamañocarrusel form {
-  text-align: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  width: 50%;
-  padding: 10px; }
-
-.CarruselTam form {
-  width: 10%;
-  text-align: center;
-  justify-content: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center; }
-
+/*Galeria*/
 .imagenGaleria form {
   text-align: center;
   justify-content: center;
@@ -249,6 +225,7 @@ i {
   -ms-flex-pack: center;
   justify-content: center; }
 
+/*Contacto*/
 .contacto form {
   display: -ms-grid;
   display: grid;
@@ -261,7 +238,7 @@ i {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center; }
-
+/*Formulario*/
 .formulario {
   display: -ms-grid;
   display: grid;
@@ -269,7 +246,7 @@ i {
   grid-template-columns: 1fr;
   -ms-grid-row: 1;
   grid-row: 1fr; }
-
+/*Campo Formulario*/
 .campo {
   display: -ms-grid;
   display: grid;
@@ -280,7 +257,7 @@ i {
   width: 50%;
   padding: 10px;
   margin: 10px auto; }
-
+/*boton formulario*/
 .tamBotonForm {
   min-width: 130px;
   margin: auto;
@@ -299,6 +276,12 @@ i {
   background-size: 120% auto;
   background-image: linear-gradient(315deg, #833ab4 0%, #fd1d1d 50%, #fcb045); }
 
+.slide{
+  margin-top: 10px;
+}
+.slide img{
+  height: 55vh;
+}
 /*Footer*/
 footer {
   height: 160px;
