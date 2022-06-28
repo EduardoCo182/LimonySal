@@ -1,15 +1,27 @@
+<!--Inicia HTML-->
 <!DOCTYPE html>
 <html lang="es">
+<!--Inicia Head-->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--Descripcion de Pagina-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Este es el sitio web de mi Restaurante, en el que encontrarás toda la información de el para conocernos, ver nuestro menú,ubicación, horarios y fechas, promociones,reservar una mesa y mucho más.  ¡Ven a Conocernos!">
+    <meta name ="keywords" content="Mariscos,Restaurante,CDMX,Cuauhtemoc,Cocina,Platillos,Limon,Sal">
+    <meta name="google-site-verification" content="PYvr8I0ZZ4kZHuyN7vZ4BM6VYLBnkJeroBCxdvw3SuY" />
+    <!--Titulo Pagina-->
     <title>Menú</title>
+    <!--Favicom-->
+    <link rel="shortcut icon" href="../img/lobster-icon-12.png" type="image/x-icon">
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="shortcut icon" href="../img/lobster-icon-12.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!--CSS-->
     <link rel="stylesheet" href="../css/estilo.css">
+    <!--Termina Head-->
 </head>
+<!--Inicia Body-->
 <body class="bodygrid">
   <header class=".encabezado">
       <h1 class=".tituloPrincipal">Marisquería Limón y SaL</h1>
@@ -51,13 +63,16 @@
 <section class="container-fluid">
 <div class="row">
   <div class="col-lg-12 col-md-6 col-sm-12 mt-2 p-2">
-
+<!--Empieza Texto-->
     <main>
         <h2>Nuestro Menú</h2>
+      <div class="textos">
+        <p>Algo que nos caracteriza en Limón y Sal, es que preferimos preparar nosotros mismos nuestras salsas, aderezos y condimentos necesarios que hacen que nuestros platillos sepan delicioso.</p>
 
-        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis ipsam facere harum, blanditiis cum laboriosam id distinctio nam consequuntur ullam veritatis? Natus, voluptatem illum itaque velit expedita repellendus nisi architecto nostrum maiores reiciendis rem iure voluptatibus, atque, vel aperiam adipisci deleniti necessitatibus culpa? Repellendus similique velit nihil, dolor dolores tenetur.</p>
-       
+        <p>Tenemos chamoy de la casa, salsa macha, conservas,aderezos, nuestra propia receta de empanizado y dos salsas secretas que te encantaran.</p>
+      </div>
     </main>  
+    <!--Empieza Galeria 2-->
     <section class="galeria2">
         <div class="contenedor2"> 
         <h2>Menú:</h2>
@@ -65,10 +80,11 @@
                 <img class="imagenGaleria2" src="../img/Foto1 (1).jpg" alt="Imagen menú">
                 <img class="imagenGaleria2" src="../img/Foto1 (2).jpg" alt="Imagen menú">
                 <img class="imagenGaleria2" src="../img/Foto1 (3).jpg" alt="Imagen menú">
-
             </div>
         </div>
     </section>
+    <br>
+    <!--Empieza Galeria 3-->
       <section class="galeria">
         <div class="contenedor"> 
          <h2>Conoce nuestros Platillos:</h2>
@@ -83,7 +99,7 @@
       </div>
    </div>
  </section>
-        
+  <br>      
  <!--Botones-->
  <div class="botonCorreo">
   <a href="https://outlook.live.com/mail/0/" target="_blank"><img src="../img/email_512.png" alt="Icono Correo">
@@ -102,22 +118,69 @@
 </div>
 
 <!--Footer-->
-<footer id="footer">
-    <nav>
-        <ul>
-            <li><i class="fab fa-instagram"></i><a href="https://www.instagram.com/limonysalmarisqueria/" target="_blank">Instagram</a></li>
-            <li><i class="fab fa-facebook"></i><a href="https://www.facebook.com/Lim%C3%B3n-y-Sal-Marisquer%C3%ADa-112226071369296">Facebook</a></li>
-            <li><i class="fab fa-twitter"></i><a href="https://www.twitter.com/">Twitter</a></li>
-        </ul>
-    </nav>
-    <br><br><br><br>
-<p>Sitio Web creado por <strong>Eduardo Cortes</strong></p>
-<BR></BR>
-<p><strong>  Todos los Derechos Reservados</strong></p>
+<footer id="footer" class="footer">
+
+  <div class="container">
+    <div class="row gy-3">
+      <div class="col-lg-3 col-md-6 d-flex">
+        <i class="bi bi-geo-alt icon"></i>
+        <div>
+          <h4>Ubicación</h4>
+          <p>Mercado Juarez, 
+            Local 269
+            Alcaldia Cuauhtemoc, 
+            Colonia Juarez, CP 06600
+            Ciudad de México </p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 footer-links d-flex">
+        <i class="bi bi-telephone icon"></i>
+        <div>
+          <h4>Reservaciones</h4>
+          <p>
+            <strong>Celular:</strong>+52 5619431809
+            <strong>Email:</strong>hola.limonysal@gmail.com</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 footer-links d-flex">
+        <i class="bi bi-clock icon"></i>
+        <div>
+          <h4>Horarios</h4>
+          <p>
+            <strong>De Lunes a Domingo</strong><br>
+            9:00am -16:00 PM
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 footer-links">
+        <h4>Siguenos en:</h4>
+        <div class="social-links d-flex">
+
+          <a href="https://www.facebook.com/Lim%C3%B3n-y-Sal-Marisquer%C3%ADa-112226071369296" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/limonysalmarisqueria/" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="https://twitter.com/" class="twitter"><i class="bi bi-twitter"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="copyright">
+      Copyright <strong><span>MarisqueriaLimonySal</span></strong>. All Rights Reserved
+      <strong><span>Eduardo Cortes Alba</span></strong>
+    </div>
+    </div>
+  </div>
 
 </footer>
+<!--Scrips-->
 <script src="https://kit.fontawesome.com/ac484d389e.js" crossorigin="anonymous"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
 </body>
 </html>
+<!--Termina pagina-->
