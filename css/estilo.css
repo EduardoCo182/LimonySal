@@ -308,6 +308,14 @@ i {
 .slide2 img{
   height: 40vh;
 }
+/*Carrusel 3*/
+.slide3{
+ height:min-content;
+ margin-top: 1px;
+ margin-left: 60px;
+ width: min-content;
+}
+
 /*Footer*/
   .footer {
     font-size: 14px;
