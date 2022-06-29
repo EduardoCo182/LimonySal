@@ -91,9 +91,16 @@ body {
   body .imagenGaleria2:hover {
     transform: scale(1.5);
   }
+
   body .imagenGaleria3:hover {
     -webkit-filter: drop-shadow(100%);
     filter: drop-shadow(100%); }
+
+    body .imagenGaleria4:hover{
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(25%);
+      transform: scale(1.2); 
+    }
   body .imagenContenedor, body .imagenContenedor2, body .imagenContenedor3, body .Imagen1, body .TeEsperamos {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -131,7 +138,7 @@ body {
   body h3, body h4, body h5 {
     text-align: center;
     font-family: 'Marck Script', cursive;
-    font-size: 350%;
+    font-size: 300%;
     color: #ee7818; }
   body a {
     display: -webkit-box;
@@ -398,57 +405,4 @@ i {
 
 /*Medias Querry*/
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .bodygrid {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
-    -ms-grid-rows: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "header header header header" "nav nav nav nav nav nav nav nav nav" "main main " "footer footer footer footer";
-    gap: 20px; } }
-
-@media screen and (min-width: 480px) and (max-width: 785px) {
-  .bodygrid {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
-    -ms-grid-rows: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "header header" "nav nav nav nav nav" "main main" "footer footer footer"; } }
-
-@media screen and (max-width: 900px) {
-  .encabezado nav ul li a {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
-    -ms-grid-rows: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "header header header header" "nav nav nav nav nav nav nav nav nav" "main main " "footer footer footer footer";
-    gap: 20px; }
-  .servicios {
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap; }
-  .contacto {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    border: none; }
-  .TeEsperamos {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
-    -ms-grid-rows: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "header header header header" "nav nav nav nav nav nav nav nav nav" "main main " "footer footer footer footer";
-    gap: 20px; }
-  .campo {
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0; } }
 /*Fin CSS*/
